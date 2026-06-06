@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: VolumetricFog::VolumetricFogRendererFeature
   m_Active: 1
   m_Material: {fileID: 2100000, guid: 1a885bc3aa7e3f44ab4124e2c90f44b2, type: 2}
-  m_ApplyVRS: 0
+  m_ApplyVRS: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

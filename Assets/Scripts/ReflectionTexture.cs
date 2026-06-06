@@ -88,14 +88,30 @@ namespace TCGE
                         vignette.active = enabled;
                     }*/
                     
-#if USING_VOLUMETRIC_FOG
+#if ZERO // USING_VOLUMETRIC_FOG
                     if (profile.TryGet<VolumetricFogVolumeComponent>(out var volumetricFog))
                     {
-                        volumetricFog.active = enabled;
+                        var cam = Camera.main;
+                        volumetricFog.active = enabled && cam != null && cam.TryGetComponent<Light>(out var light) && light.enabled;
                     }
-#endif // USING_VOLUMETRIC_FOG
+#endif // ZERO // USING_VOLUMETRIC_FOG
                 }
             }
+        }
+
+        [System.Diagnostics.Conditional("USING_VOLUMETRIC_FOG")]
+        public static void SetVolumetricFog(bool enabled)
+        {
+            var volume = FindAnyObjectByType<Volume>();
+            if (volume == null)
+                return;
+            
+            var profile = volume.profile;
+            if (profile == null || !profile.TryGet<VolumetricFogVolumeComponent>(out var volumetricFog))
+                return;
+            
+            var cam = Camera.main;
+            volumetricFog.active = enabled && cam != null && cam.TryGetComponent<Light>(out var light) && light.enabled;
         }
 
         static async Awaitable RenderAsync(ReflectionProbe probe, TransformHandle handle,
