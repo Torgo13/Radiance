@@ -31,16 +31,6 @@ namespace TCGE
             }
         }
 
-        public static void SetIndirect()
-        {
-            var cam = Camera.main;
-            if (cam != null && cam.TryGetComponent<ReflectionProbe>(out var probe))
-            {
-                var intensity = probe.intensity;
-                probe.intensity = Mathf.Approximately(0, intensity) ? 1 : 0;
-            }
-        }
-
         public static void SetIndirect(bool enabled)
         {
             var cam = Camera.main;

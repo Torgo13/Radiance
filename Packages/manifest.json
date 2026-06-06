@@ -4,7 +4,7 @@
     "com.unity.ide.visualstudio": "2.0.27",
     "com.unity.render-pipelines.universal": "17.3.0",
     "com.unity.sponza-urp": "https://github.com/alexmalyutindev/sponza-unity-urp.git",
-    "com.tw0catsgames.volumetric-fog": "https://github.com/Torgo13/VolumetricFog.git#b70894dc89998a48dbb721e8d7b846e709ad629f",
+    "com.tw0catsgames.volumetric-fog": "https://github.com/Torgo13/VolumetricFog.git#0309d1d3502da83b8d93074c362ee65b4c8003f7",
     "com.microsoft.mixedreality.visualprofiler": "https://github.com/Torgo13/VisualProfiler-Unity.git?path=/com.microsoft.mixedreality.visualprofiler#7d6467240c9e8f30ce5319a6bd69366ed711fd75"
   }
 }
