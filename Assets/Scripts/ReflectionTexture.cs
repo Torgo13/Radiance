@@ -87,6 +87,13 @@ namespace TCGE
                     {
                         vignette.active = enabled;
                     }*/
+                    
+#if USING_VOLUMETRIC_FOG
+                    if (profile.TryGet<VolumetricFogVolumeComponent>(out var volumetricFog))
+                    {
+                        volumetricFog.active = enabled;
+                    }
+#endif // USING_VOLUMETRIC_FOG
                 }
             }
         }

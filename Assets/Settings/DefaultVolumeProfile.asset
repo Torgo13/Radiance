@@ -532,7 +532,7 @@ MonoBehaviour:
   - {fileID: -3674277848186640007}
   - {fileID: -5411264634611202251}
   - {fileID: 970971054282834680}
-  - {fileID: -4594795095610774278}
+  - {fileID: 4890361167650561762}
 --- !u!114 &970971054282834680
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -666,6 +666,46 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 1000
+--- !u!114 &4890361167650561762
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68829d0f3378349d19412531ccbe7779, type: 3}
+  m_Name: VolumetricFogVolumeComponent
+  m_EditorClassIdentifier: VolumetricFog::VolumetricFogVolumeComponent
+  active: 1
+  forwardScattering:
+    m_OverrideState: 1
+    m_Value: 0
+  forwardScatterColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  backScattering:
+    m_OverrideState: 1
+    m_Value: 0
+  backScatterColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  fogIntensity:
+    m_OverrideState: 1
+    m_Value: 0
+  fogColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  stepCount:
+    m_OverrideState: 1
+    m_Value: 16
+  distance:
+    m_OverrideState: 1
+    m_Value: 1000
+  bayerOffset:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &5018649920432511987
 MonoBehaviour:
   m_ObjectHideFlags: 3

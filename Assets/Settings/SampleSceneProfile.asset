@@ -165,6 +165,46 @@ MonoBehaviour:
   clamp:
     m_OverrideState: 0
     m_Value: 0.05
+--- !u!114 &-3773923287047477739
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68829d0f3378349d19412531ccbe7779, type: 3}
+  m_Name: VolumetricFogVolumeComponent
+  m_EditorClassIdentifier: VolumetricFog::VolumetricFogVolumeComponent
+  active: 1
+  forwardScattering:
+    m_OverrideState: 1
+    m_Value: 2
+  forwardScatterColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  backScattering:
+    m_OverrideState: 1
+    m_Value: 2
+  backScatterColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  fogIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  fogColor:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  stepCount:
+    m_OverrideState: 1
+    m_Value: 32
+  distance:
+    m_OverrideState: 1
+    m_Value: 16
+  bayerOffset:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &-3625508110935534741
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -202,13 +242,13 @@ MonoBehaviour:
   components:
   - {fileID: 849379129802519247}
   - {fileID: -7893295128165547882}
-  - {fileID: 3423649682746083376}
   - {fileID: -8313012915258899808}
   - {fileID: -6291536792030222634}
   - {fileID: 5717286570471598359}
   - {fileID: -6947559797865950765}
   - {fileID: -4475740084307396922}
   - {fileID: 6863910157241333707}
+  - {fileID: -3773923287047477739}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
