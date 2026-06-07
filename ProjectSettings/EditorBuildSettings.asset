@@ -8,5 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sponza.unity
     guid: dfed0a80b06d2436cb6ec2da60dc0683
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: 37f94fd7922b3694e8c3983d9ad3834f,
+      type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: fa98652b14ccfc84a9dfae961539a4ef, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 020184753b8211f44b9b23fe41918e17,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: fd9be7fd1256aef46a9e9755d2cef3e3, type: 2}
   m_UseUCBPForAssetBundles: 0
