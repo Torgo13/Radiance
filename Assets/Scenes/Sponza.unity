@@ -431,8 +431,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 330585553}
-        m_TargetAssemblyTypeName: TCGE.ReflectionTexture, Radiance
+      - m_Target: {fileID: 832575521}
+        m_TargetAssemblyTypeName: TCGE.UI, Radiance
         m_MethodName: SetIndirect
         m_Mode: 0
         m_Arguments:
@@ -1141,8 +1141,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 330585553}
-        m_TargetAssemblyTypeName: TCGE.ReflectionTexture, Assembly-CSharp
+      - m_Target: {fileID: 832575521}
+        m_TargetAssemblyTypeName: TCGE.UI, Radiance
         m_MethodName: SetAngle
         m_Mode: 0
         m_Arguments:
@@ -1250,8 +1250,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 330585553}
-        m_TargetAssemblyTypeName: TCGE.ReflectionTexture, Radiance
+      - m_Target: {fileID: 832575521}
+        m_TargetAssemblyTypeName: TCGE.UI, Radiance
         m_MethodName: SetVolumetricFog
         m_Mode: 0
         m_Arguments:
@@ -1605,6 +1605,7 @@ GameObject:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
   - component: {fileID: 832575520}
+  - component: {fileID: 832575521}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -1713,6 +1714,18 @@ MonoBehaviour:
       Operation: 0
     SampleCapacity: 300
     BudgetPercentage: 1
+--- !u!114 &832575521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832575517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f80d407f5730084eb8cec4ba527e430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Radiance::TCGE.UI
 --- !u!1001 &837540930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3539,8 +3552,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 330585553}
-        m_TargetAssemblyTypeName: TCGE.ReflectionTexture, Assembly-CSharp
+      - m_Target: {fileID: 832575521}
+        m_TargetAssemblyTypeName: TCGE.UI, Radiance
         m_MethodName: SetPostProcessing
         m_Mode: 0
         m_Arguments:
