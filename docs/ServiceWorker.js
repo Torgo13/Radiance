@@ -2,7 +2,6 @@ const cacheName = "TW0CATS GAMES LTD-Radiance-0.1.0";
 const contentToCache = [
     "Build/docs.loader.js",
     "Build/docs.framework.js.unityweb",
-    "Build/docs.worker.js.unityweb",
     "Build/docs.data.unityweb",
     "Build/docs.wasm.unityweb",
     "TemplateData/style.css"
